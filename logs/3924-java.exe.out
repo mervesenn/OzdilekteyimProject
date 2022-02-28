@@ -1,0 +1,49 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 810milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 810"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62564"}
+{"logLevel":"info","message":"Listening on port:62564"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickById' and 'BasePage.clickById'"}
+{"logLevel":"debug","message":"Found id{} li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickByXpathkadın' and 'BasePage.clickByXpathkadın'"}
+{"logLevel":"debug","message":"Found xpath{} kadın kategorisine tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.checkText' and 'BasePage.checkText'"}
+{"logLevel":"debug","message":"Found id{} li elementi kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.checkText1' and 'BasePage.checkText1'"}
+{"logLevel":"debug","message":"Found id{} li elementli kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickBykategori' and 'BasePage.clickBykategori'"}
+{"logLevel":"debug","message":"Found id{} kategoriye tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.waitForSeconds' and 'BasePage.waitForSeconds'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tid{} li elementi kontrol et : public void checkText(String id)"}
+{"logLevel":"debug","message":"\tid{} li elementli kontrol et : public void checkText1(String id)"}
+{"logLevel":"debug","message":"\tid{} kategoriye tıkla : public void clickBykategori(String id)"}
+{"logLevel":"debug","message":"\tid{} li elemente tıkla : public void clickById(String id)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForSeconds(ınt wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\txpath{} kadın kategorisine tıkla : public void clickByXpathkadın(String xpath)"}
+Feb 28, 2022 11:20:55 AM BaseTest Education
+INFO: Android testi başlıyor
+Feb 28, 2022 11:21:07 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'id{} li elementi kontrol et' using 'class BasePage.checkText"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'id{} li elemente tıkla' using 'class BasePage.clickById"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'id{} li elementli kontrol et' using 'class BasePage.checkText1"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'id{} kategoriye tıkla' using 'class BasePage.clickBykategori"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'xpath{} kadın kategorisine tıkla' using 'class BasePage.clickByXpathkadın"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
